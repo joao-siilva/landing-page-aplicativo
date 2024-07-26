@@ -45,12 +45,13 @@ html {
   font-weight: var(--fw-base);
   line-height: 1.6;
   color: var(--text-color-primary);
-  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--bg-color);
   font-size: var(--fs-base);
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
